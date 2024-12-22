@@ -1,0 +1,130 @@
+body{
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+.cont {
+  background-image: url(./images/Object.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 150vh;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  gap: 25px;
+  padding-right: 150px;
+}
+li {
+  list-style-type: none;
+  padding-top: 35px;
+}
+li a {
+  text-decoration: none;
+  color: white;
+}
+#image1 {
+  width: 100px;
+  height: 20px;
+  padding-top: 25px;
+  padding-left: 30px;
+}
+.sec1 {
+  position: relative;
+}
+.but1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #c271ff;
+  border-radius: 20px;
+  color: white;
+  width: 162px;
+  height: 44px;
+  top: 419px;
+  left: 639px;
+  gap: 0px;
+  opacity: 1px;
+  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.20);
+  border: none;
+  margin: 0 auto;
+  top: 2px;
+}
+.images{
+    width: 100px;
+    height: 100px;
+    top: 758px;
+    left: 506px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 100%;
+}
+.img{
+  width: 50px;
+  height: 50px;
+  top: 758px;
+  left: 506px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 100%;
+}
+.container{
+  position: relative;
+}
+.container .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centers the icon */
+  font-size: 50px; /* Adjust icon size */
+  color: #c271ff;
+  background-color: white;
+  border-radius: 100%;
+}
+footer {
+  background: #071629;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+footer div {
+  display: flex;;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px; 
+  justify-content: space-evenly;/* Add some space between the icons and the footer text */
+}
+
+footer div img {
+  height: 20px; 
+  margin-right: 750px;/* Optional: control logo size */
+  /* Space between logo and social icons */
+}
+
+footer div i {
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  margin-left: 15px; 
+  width: 30px;
+  height: 30px;/* Adds spacing between icons */
+}
+
+footer p {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 0.7em;
+  color: white;
+  margin-top: 80px;
+}
