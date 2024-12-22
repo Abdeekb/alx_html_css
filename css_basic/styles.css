@@ -1,0 +1,43 @@
+/* styles.css */
+
+/* Basic style for header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Main content area */
+main {
+    padding: 20px;
+}
+
+/* Article and aside style */
+article {
+    margin-bottom: 20px;
+}
+
+/* Style links inside header */
+header a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+header a:hover {
+    background-color: #555;
+}
+
+/* Footer links */
+footer a {
+    color: white;
+}
