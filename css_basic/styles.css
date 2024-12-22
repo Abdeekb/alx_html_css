@@ -1,6 +1,27 @@
 /* styles.css */
 
-/* Basic style for header */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
 header {
     background-color: #333;
     color: white;
@@ -8,7 +29,6 @@ header {
     text-align: center;
 }
 
-/* Style the footer */
 footer {
     background-color: #333;
     color: white;
@@ -16,17 +36,6 @@ footer {
     text-align: center;
 }
 
-/* Main content area */
-main {
-    padding: 20px;
-}
-
-/* Article and aside style */
-article {
-    margin-bottom: 20px;
-}
-
-/* Style links inside header */
 header a {
     color: white;
     padding: 10px;
@@ -37,7 +46,15 @@ header a:hover {
     background-color: #555;
 }
 
-/* Footer links */
-footer a {
-    color: white;
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #3498db;
 }
